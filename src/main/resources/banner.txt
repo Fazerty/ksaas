@@ -1,10 +1,12 @@
+${AnsiColor.BLUE}  _    _                          _
+${AnsiColor.BLUE} | |  | |                        (_)
+${AnsiColor.BLUE} | |  | |  _ __    _   _   _ __   _    ___    _ __
+${AnsiColor.BLUE} | |  | | | '_ \  | | | | | '__| | |  / _ \  | '_ \
+${AnsiColor.BLUE} | |__| | | |_) | | |_| | | |    | | | (_) | | | | |
+${AnsiColor.BLUE}  \____/  | .__/   \__,_| |_|    |_|  \___/  |_| |_|
+${AnsiColor.BLUE}          | |
+${AnsiColor.BLUE}          |_|
 
- ${AnsiColor.GREEN}      ██╗${AnsiColor.BLUE} ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ████${AnsiColor.GREEN}███╗
- ${AnsiColor.GREEN}      ██║ ██║ ${AnsiColor.BLUE}  ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔══${AnsiColor.GREEN}═══╝ ██╔═══██╗
- ${AnsiColor.GREEN}      ██║ ████████║${AnsiColor.BLUE}    ██║    ███████╔╝ ╚█████╗     ██║   ${AnsiColor.GREEN} ██████╗   ███████╔╝
- ${AnsiColor.GREEN}██╗   ██║ ██╔═══██║    ██║   ${AnsiColor.BLUE} ██╔════╝   ╚═══██╗    ${AnsiColor.GREEN}██║    ██╔═══╝   ██╔══██║
- ${AnsiColor.GREEN}╚██████╔╝ ██║   ██║ ████████╗ ██║ ${AnsiColor.BLUE}      ██████${AnsiColor.GREEN}╔╝    ██║    ████████╗ ██║  ╚██╗
- ${AnsiColor.GREEN} ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝      ${AnsiColor.BLUE} ╚═${AnsiColor.GREEN}════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
 
-${AnsiColor.BRIGHT_BLUE}:: JHipster 🤓  :: Running Spring Boot ${spring-boot.version} ::
-:: https://www.jhipster.tech ::${AnsiColor.DEFAULT}
+${AnsiColor.BRIGHT_BLUE}:: Upurion Saas 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.upurion.com ::${AnsiColor.DEFAULT}

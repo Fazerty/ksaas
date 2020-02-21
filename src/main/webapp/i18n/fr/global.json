@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Ksaas",
+    "title": "Upurion",
     "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
     "menu": {
       "home": "Accueil",
@@ -31,7 +31,11 @@
         "database": "Base de données",
         "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
       },
-      "language": "Langue"
+      "language": "Langue",
+      "help": { "main": "Aide", "documentation": "Documentation", "faq": "FAQ", "blog": "Blog" },
+      "community": { "main": "Communauté", "tutorials": "Tutoriels", "getInvolved": "Soyez impliqué" },
+      "features": { "main": "Fonctionnalités", "common": "Communes", "webApp": "Version Web", "desktop": "Version Desktop" },
+      "pricing": "Tarifs"
     },
     "form": {
       "username.label": "Nom d'utilisateur",

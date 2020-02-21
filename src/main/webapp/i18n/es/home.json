@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "¡Bienvenido, Java Hipster!",
-    "subtitle": "Esta es su página de inicio",
+    "title": "¡Fácil gestión de sus datos!",
+    "subtitle": "¡Esta aplicación le permitirá crear fácilmente una estructura para datos! Luego puede ingresar sus datos. Necesita cambiar la estructura, hágalo en cualquier momento",
     "logged": {
       "message": "Está conectado como \"{{username}}\"."
     },

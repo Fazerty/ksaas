@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 300;
+  font-weight: 200;
 }
 
 body {
@@ -22,12 +22,12 @@ body {
 }
 
 a {
-  color: #533f03;
+  color: #052388;
   font-weight: bold;
 }
 
 a:hover {
-  color: #533f03;
+  color: #031347;
   font-weight: bold;
   /* make sure browsers use the pointer cursor for anchors, even with no href */
   cursor: pointer;
@@ -51,7 +51,7 @@ Main page styles
   display: inline-block;
   width: 347px;
   height: 497px;
-  background: url('../images/jhipster_family_member_3.svg') no-repeat center top;
+  background: url('../images/undraw_remotely_2j6y.svg') no-repeat center top;
   background-size: contain;
 }
 
@@ -63,7 +63,7 @@ Main page styles
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .hipster {
-    background: url('../images/jhipster_family_member_3.svg') no-repeat center top;
+    background: url('../images/undraw_remotely_2j6y.svg') no-repeat center top;
     background-size: contain;
   }
 }

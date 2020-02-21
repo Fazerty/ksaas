@@ -1,19 +1,19 @@
 {
   "home": {
-    "title": "Bienvenue, Java Hipster !",
-    "subtitle": "Ceci est votre page d'accueil",
+    "title": "La Gestion facile de vos données !",
+    "subtitle": "Cette application va vous permettre de créer facilement une structure pour données! Vous pourrez ensuite entrer vos données. Besoin de changer la structure , faites le à tout moment",
     "logged": {
       "message": "Vous êtes connecté en tant que \"{{username}}\"."
     },
-    "question": "Si vous avez des questions à propos de JHipster :",
+    "question": "Si vous avez des questions à propos de Upurion :",
     "link": {
-      "homepage": "Page d'accueil de JHipster",
-      "stackoverflow": "JHipster sur Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "Suivez @jhipster sur Twitter"
+      "homepage": "Page d'accueil de Upurion",
+      "stackoverflow": "Upurion sur Stack Overflow",
+      "bugtracker": "Upurion bug tracker",
+      "chat": "Upurion public chat room",
+      "follow": "Suivez @upurion sur Twitter"
     },
-    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+    "like": "Si vous aimez Upurion, donnez nous une étoile sur",
     "github": "GitHub "
   }
 }

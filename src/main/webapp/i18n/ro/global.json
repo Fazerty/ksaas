@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Ksaas",
+    "title": "Upurion",
     "browsehappy": "Folosiți un browser <strong>vechi</strong>. Va rugăm <a href=\"http://browsehappy.com/?locale=en\"> să îl actualizați</a> pentru o experiență îmbunătațită.",
     "menu": {
       "home": "Acasă",
@@ -40,7 +40,11 @@
       "articles": {
         "main": "Articole"
       },
-      "language": "Limbă"
+      "language": "Limbă",
+      "help": { "main": "*Help", "documentation": "*Documentation", "faq": "*FAQ", "blog": "*Blog" },
+      "community": { "main": "*Community", "tutorials": "*Tutorials", "getInvolved": "*Get Involved" },
+      "features": { "main": "*Features", "common": "*Common", "webApp": "Web version", "desktop": "*Desktop version" },
+      "pricing": "*Pricing"
     },
     "form": {
       "username.label": "Utilizator",

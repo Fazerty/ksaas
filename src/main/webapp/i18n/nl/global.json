@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Ksaas",
+    "title": "Upurion",
     "browsehappy": "U gebruikt een <strong>verouderde</strong> browser. <a href=\"http://browsehappy.com/?locale=en\">upgrade uw browser</a> om de bruikbaarheid te verbeteren.",
     "menu": {
       "home": "Startpagina",
@@ -31,7 +31,11 @@
         "database": "Databank",
         "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
       },
-      "language": "Taal"
+      "language": "Taal",
+      "help": { "main": "*Help", "documentation": "*Documentation", "faq": "*FAQ", "blog": "*Blog" },
+      "community": { "main": "*Community", "tutorials": "*Tutorials", "getInvolved": "*Get Involved" },
+      "features": { "main": "*Features", "common": "*Common", "webApp": "Web version", "desktop": "*Desktop version" },
+      "pricing": "*Pricing"
     },
     "form": {
       "username.label": "Username",

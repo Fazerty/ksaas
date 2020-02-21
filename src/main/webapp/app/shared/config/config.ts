@@ -6,6 +6,7 @@ import { setupAxiosInterceptors } from '@/shared/config/axios-interceptor';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSort } from '@fortawesome/free-solid-svg-icons/faSort';
 import { faEye } from '@fortawesome/free-solid-svg-icons/faEye';
+import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
 import { faSync } from '@fortawesome/free-solid-svg-icons/faSync';
 import { faBan } from '@fortawesome/free-solid-svg-icons/faBan';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
@@ -240,6 +241,7 @@ export function initFortAwesome(vue) {
     faSync,
     faBan,
     faTrash,
+    faCheck,
     faArrowLeft,
     faSave,
     faPlus,
