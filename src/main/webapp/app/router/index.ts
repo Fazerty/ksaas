@@ -24,7 +24,15 @@ const JhiLogsComponent = () => import('../admin/logs/logs.vue');
 const JhiAuditsComponent = () => import('../admin/audits/audits.vue');
 const JhiMetricsComponent = () => import('../admin/metrics/metrics.vue');
 
-const Pricing = () => import('../pricing/pricing.vue');
+const PricingComponent = () => import('../pricing/pricing.vue');
+const FaqComponent = () => import('../help/faq/faq.vue');
+const DocumentationComponent = () => import('../help/documentation/documentation.vue');
+const BlogComponent = () => import('../help/blog/blog.vue');
+const CommonFeaturesComponent = () => import('../features/common/commonFeatures.vue');
+const DesktopFeatures = () => import('../features/desktop/desktopFeatures.vue');
+const WebappFeatures = () => import('../features/webapp/webappFeatures.vue');
+const DownloadAppComponent = () => import('../desktop/download/downloadApp.vue');
+
 /* tslint:disable */
 // jhipster-needle-add-entity-to-router-import - JHipster will import entities to the router here
 
@@ -146,8 +154,44 @@ export default new Router({
     {
       path: '/pricing',
       name: 'PricingComponent',
-      component: Pricing
+      component: PricingComponent
     },
+    {
+      path: '/help/faq',
+      name: 'FaqComponent',
+      component: FaqComponent
+    },
+    {
+      path: '/help/documentation',
+      name: 'DocumentationComponent',
+      component: DocumentationComponent
+    },
+    {
+      path: '/help/blog',
+      name: 'BlogComponent',
+      component: BlogComponent
+    },
+    {
+      path: '/features/common',
+      name: 'CommonFeaturesComponent',
+      component: CommonFeaturesComponent
+    },
+    {
+      path: '/features/desktop',
+      name: 'Component',
+      component: DesktopFeatures
+    },
+    {
+      path: '/features/webapp',
+      name: 'WebappComponent',
+      component: WebappFeatures
+    },
+    {
+      path: '/desktop/download',
+      name: 'DownloadAppComponent',
+      component: DownloadAppComponent
+    }
+
 
     // jhipster-needle-add-entity-to-router - JHipster will add entities to the router here
   ]

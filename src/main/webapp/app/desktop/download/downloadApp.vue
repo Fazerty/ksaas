@@ -7,11 +7,11 @@
 }
 </i18n>
 <template>
-  <b-container>documentation
+  <b-container>downloadApp
   </b-container>
 </template>
 
-<script lang="ts" src="./documentation.component.ts">
+<script lang="ts" src="./downloadApp.component.ts">
 </script>
 <style lang="scss" scoped>
 

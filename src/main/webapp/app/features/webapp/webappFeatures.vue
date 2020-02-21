@@ -7,7 +7,7 @@
 }
 </i18n>
 <template>
-  <b-container>
+  <b-container>webappFeatures
   </b-container>
 </template>
 

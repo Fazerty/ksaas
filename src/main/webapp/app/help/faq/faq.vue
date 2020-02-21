@@ -7,7 +7,7 @@
 }
 </i18n>
 <template>
-  <b-container>
+  <b-container>faq
   </b-container>
 </template>
 

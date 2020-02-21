@@ -54,63 +54,83 @@
 </i18n>
 
 <template>
-  <b-container fluid id="footer" class="footer light font-small">
+  <b-container fluid id="footer" class="footer bg-primary font-small">
     <b-container class="text-left">
       <b-row>
         <!-- Upurion Section -->
         <b-col sm="3">
-          <h3 class="text-primary">Upurion</h3>
-          <span
+          <div class="logo" b-link to="/">
+                <span class="logo-img"></span>
+                <span v-text="$t('global.title')" class="logo-title">Upurion</span>
+                <!-- <span class="navbar-version">{{version}}</span> -->
+          </div>
+          <div
             v-text="$t('footer.description')"
-            class="text-gray"
-          >The easy way to manage your data.</span>
+            class="text-white"
+          >The easy way to manage your data.</div>
         </b-col>
 
         <!-- About section -->
         <b-col sm="3">
-          <h5 class="title text-primary"  v-text="$t('footer.about.title')">About</h5>
+          <h5 class="title text-white" v-text="$t('footer.about.title')">About</h5>
           <ul class="sm">
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.about.ourStory')">Our story</a>
+              <b-link class="text-white" v-text="$t('footer.about.ourStory')" to="/help/documentation">Our story</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.about.blog')">Blog</a>
+              <b-link class="text-white" v-text="$t('footer.about.blog')" to="/help/documentation">Blog</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.about.contactUs')">Contact us</a>
+              <b-link class="text-white" v-text="$t('footer.about.contactUs')" to="/help/documentation">Contact us</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.about.termsOfService')">Terms of Service</a>
+              <b-link
+                class="text-white"
+                href="#!"
+                v-text="$t('footer.about.termsOfService')"
+                to="/help/documentation"
+              >Terms of Service</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.about.privacyPolicy')">Privacy policy</a>
+              <b-link
+                class="text-white"
+                href="#!"
+                v-text="$t('footer.about.privacyPolicy')"
+                to="/help/documentation"
+              >Privacy policy</b-link>
             </li>
           </ul>
         </b-col>
 
         <!-- Links section -->
         <b-col sm="3">
-          <h5 class="title text-primary" v-text="$t('footer.links.title')">Links</h5>
+          <h5 class="title text-white" v-text="$t('footer.links.title')" >Links</h5>
           <ul>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.links.home')">Home</a>
+              <b-link class="text-white" v-text="$t('footer.links.home')" to="/">Home</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.links.pricing')">Pricing</a>
+              <b-link class="text-white" v-text="$t('footer.links.pricing')" to="/pricing">Pricing</b-link>
             </li>
             <li class="list-unstyled">
-              <a href="#!" v-text="$t('footer.links.documentation')">Documentation</a>
+              <b-link
+                class="text-white"
+                href="#!"
+                v-text="$t('footer.links.documentation')"
+                to="/help/documentation"
+              >Documentation</b-link>
             </li>
           </ul>
         </b-col>
         <!-- Newsletter section -->
         <b-col sm="3">
+          <br/>
           <b-form novalidate>
             <b-form-group
               id="input-group-1"
               label-for="input-1"
               :label="$t('footer.newsletter.title')"
-              label-class="text-primary font-weight-bold pt-0"
+              label-class="text-white font-weight-bold pt-0"
             >
               <b-form-input
                 id="input-1"
@@ -132,21 +152,56 @@
         </b-col>
       </b-row>
     </b-container>
-    <div class="text-center">
-      <b-container fluid class="text-center text-gray bg-info">
-        &copy; 2020 Copyright:
-        <a href="https://www.upurion.com">Upurion.com</a>
-      </b-container>
-    </div>
+    <hr class="bg-white mb-1" />
+    <b-container fluid class="text-center text-white bg-gray">
+      &copy; 2020 Copyright:
+      <b-link class="text-white" href="https://www.upurion.com">Upurion.com</b-link>
+    </b-container>
+    <br />
   </b-container>
 </template>
 
 <script lang="ts" src="./jhi-footer.component.ts"></script>
 
 <style lang="scss" scoped>
+
+.logo .logo-img {
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.logo-img {
+  height: 90%;
+  background: url("../../../content/images/logo.png") no-repeat center
+    center;
+  background-size: contain;
+  width: 90%;
+}
+
+.logo-title {
+  display: inline-block;
+  color: white;
+  font-size: 200%;
+  font-family: Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  color: white;
+  font-size: 150%;
+  font-family: Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
+  vertical-align: middle;
+}
+
 .footer {
   text-align: left;
   font-size: 85%;
-  background-color: var(--secondary);
 }
 </style>

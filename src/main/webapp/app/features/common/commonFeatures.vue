@@ -7,7 +7,7 @@
 }
 </i18n>
 <template>
-  <b-container>
+  <b-container>commonFeatures
   </b-container>
 </template>
 
