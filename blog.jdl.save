@@ -1,7 +1,7 @@
 entity BlogSection {
   language
   name String required minlength(3),
-  handle String required minlength(2)
+  info String required minlength(2)
 }
 
 entity Entry {
