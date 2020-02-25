@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqEntryGroup": {
+      "home": {
+        "title": "Faq Entry Groups",
+        "createLabel": "Maak een nieuwe Faq Entry Group",
+        "createOrEditLabel": "Maak of wijzig een Faq Entry Group",
+        "notFound": "No Faq Entry Groups found"
+      },
+      "created": "A new Faq Entry Group is created with identifier {{ param }}",
+      "updated": "A Faq Entry Group is updated with identifier {{ param }}",
+      "deleted": "A Faq Entry Group is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Faq Entry Group {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Faq Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

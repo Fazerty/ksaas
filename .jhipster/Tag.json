@@ -1,0 +1,30 @@
+{
+    "name": "Tag",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "translatedName",
+            "otherEntityRelationshipName": "tag",
+            "relationshipName": "names"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "blogEntry",
+            "otherEntityRelationshipName": "tag",
+            "relationshipName": "entry",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20200224170849",
+    "entityTableName": "tag",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

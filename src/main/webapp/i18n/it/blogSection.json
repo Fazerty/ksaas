@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "blogSection": {
+      "home": {
+        "title": "BlogSections",
+        "createLabel": "Genera un nuovo Blog Section",
+        "createOrEditLabel": "Genera o modifica un Blog Section",
+        "notFound": "No Blog Sections found"
+      },
+      "created": "&Egrave; stato generato un nuovo Blog Section con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Blog Section identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Blog Section con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Blog Section {{ id }}?"
+      },
+      "detail": {
+        "title": "Blog Section"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

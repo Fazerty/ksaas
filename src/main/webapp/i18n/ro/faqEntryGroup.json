@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqEntryGroup": {
+      "home": {
+        "title": "Faq Entry Groups",
+        "createLabel": "Creeare o nouă entitate Faq Entry Group",
+        "createOrEditLabel": "Creeare sau editare Faq Entry Group",
+        "notFound": "No Faq Entry Groups found"
+      },
+      "created": "A fost creată o nouă entitate Faq Entry Group cu identificatorul {{ param }}",
+      "updated": "Faq Entry Group cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Faq Entry Group cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Faq Entry Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Faq Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

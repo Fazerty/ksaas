@@ -1,0 +1,37 @@
+{
+    "name": "BlogEntryGroup",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "blogEntryGroup",
+            "relationshipName": "user",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "blogSection",
+            "otherEntityRelationshipName": "blogEntryGroup",
+            "relationshipName": "blog",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "blogEntry",
+            "otherEntityRelationshipName": "blogEntryGroup",
+            "relationshipName": "entry",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200224170847",
+    "entityTableName": "blog_entry_group",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

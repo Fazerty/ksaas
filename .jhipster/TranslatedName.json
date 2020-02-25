@@ -1,0 +1,75 @@
+{
+    "name": "TranslatedName",
+    "fields": [
+        {
+            "fieldName": "language",
+            "fieldType": "Language",
+            "fieldValues": "FR,EN,ES,IT,RO,DU,NL"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 3
+        },
+        {
+            "fieldName": "slug",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 3
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "tag",
+            "otherEntityRelationshipName": "names",
+            "relationshipName": "tag",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "blogSection",
+            "otherEntityRelationshipName": "names",
+            "relationshipName": "blogSection",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "faqSection",
+            "otherEntityRelationshipName": "names",
+            "relationshipName": "faqSection",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "documentationChapter",
+            "otherEntityRelationshipName": "names",
+            "relationshipName": "documentationChapter",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "documentationSection",
+            "otherEntityRelationshipName": "names",
+            "relationshipName": "documentationSection",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200224170845",
+    "entityTableName": "translated_name",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

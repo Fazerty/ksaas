@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "documentationSection": {
+      "home": {
+        "title": "DocumentationSections",
+        "createLabel": "Genera un nuovo Documentation Section",
+        "createOrEditLabel": "Genera o modifica un Documentation Section",
+        "notFound": "No Documentation Sections found"
+      },
+      "created": "&Egrave; stato generato un nuovo Documentation Section con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Documentation Section identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Documentation Section con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Documentation Section {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Section"
+      },
+      "info": "Info",
+      "names": "Names",
+      "blog": "Blog"
+    }
+  }
+}

@@ -5,15 +5,9 @@ export default class JhiAlertService {
 
   constructor(store: Store<{}>) {
     this.store = store;
-    this.store.commit('initAlert');
   }
 
-  public showAlert(alertMessage: any, alertType = 'info') {
-    this.store.commit('setAlertType', alertType);
-    this.store.commit('setAlertMessage', alertMessage);
-  }
-
-  public countDownChanged(dismissCountDown: number) {
-    this.store.commit('countDownChanged', dismissCountDown);
+  public showAlert(alertMessage: any, alertType = 'info', title?: String) {
+    this.store.commit('newMessage', { msg: alertMessage, type: alertType, title });
   }
 }

@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "blogSection": {
+      "home": {
+        "title": "Blog Sections",
+        "createLabel": "Creeare o nouă entitate Blog Section",
+        "createOrEditLabel": "Creeare sau editare Blog Section",
+        "notFound": "No Blog Sections found"
+      },
+      "created": "A fost creată o nouă entitate Blog Section cu identificatorul {{ param }}",
+      "updated": "Blog Section cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Blog Section cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Blog Section {{ id }}?"
+      },
+      "detail": {
+        "title": "Blog Section"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

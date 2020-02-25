@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "blogEntryGroup": {
+      "home": {
+        "title": "Blog Entry Groups",
+        "createLabel": "Blog Entry Group erstellen",
+        "createOrEditLabel": "Blog Entry Group erstellen oder bearbeiten",
+        "notFound": "No Blog Entry Groups found"
+      },
+      "created": "Blog Entry Group erstellt mit ID {{ param }}",
+      "updated": "Blog Entry Group aktualisiert mit ID {{ param }}",
+      "deleted": "Blog Entry Group gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Blog Entry Group {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Blog Entry Group"
+      },
+      "user": "User",
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

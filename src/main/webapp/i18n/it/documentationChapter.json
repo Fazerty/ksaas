@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "documentationChapter": {
+      "home": {
+        "title": "DocumentationChapters",
+        "createLabel": "Genera un nuovo Documentation Chapter",
+        "createOrEditLabel": "Genera o modifica un Documentation Chapter",
+        "notFound": "No Documentation Chapters found"
+      },
+      "created": "&Egrave; stato generato un nuovo Documentation Chapter con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Documentation Chapter identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Documentation Chapter con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Documentation Chapter {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Chapter"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

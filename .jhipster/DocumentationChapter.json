@@ -1,0 +1,32 @@
+{
+    "name": "DocumentationChapter",
+    "fields": [
+        {
+            "fieldName": "info",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 2
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "translatedName",
+            "otherEntityRelationshipName": "documentationChapter",
+            "relationshipName": "names"
+        }
+    ],
+    "changelogDate": "20200224170853",
+    "entityTableName": "documentation_chapter",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

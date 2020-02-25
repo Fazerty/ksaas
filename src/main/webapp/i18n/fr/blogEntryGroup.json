@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "blogEntryGroup": {
+      "home": {
+        "title": "BlogEntryGroups",
+        "createLabel": "Créer un nouveau Blog Entry Group",
+        "createOrEditLabel": "Créer ou éditer un Blog Entry Group",
+        "notFound": "Aucun Blog Entry Group trouvé"
+      },
+      "created": "Un nouveau Blog Entry Group a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Blog Entry Group avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Blog Entry Group avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Blog Entry Group {{ id }} ?"
+      },
+      "detail": {
+        "title": "Blog Entry Group"
+      },
+      "user": "User",
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

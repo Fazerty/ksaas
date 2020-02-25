@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "documentationSection": {
+      "home": {
+        "title": "Documentation Sections",
+        "createLabel": "Creeare o nouă entitate Documentation Section",
+        "createOrEditLabel": "Creeare sau editare Documentation Section",
+        "notFound": "No Documentation Sections found"
+      },
+      "created": "A fost creată o nouă entitate Documentation Section cu identificatorul {{ param }}",
+      "updated": "Documentation Section cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Documentation Section cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Documentation Section {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Section"
+      },
+      "info": "Info",
+      "names": "Names",
+      "blog": "Blog"
+    }
+  }
+}

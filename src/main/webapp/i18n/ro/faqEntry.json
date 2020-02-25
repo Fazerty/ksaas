@@ -1,0 +1,25 @@
+{
+  "ksaasApp": {
+    "faqEntry": {
+      "home": {
+        "title": "Faq Entries",
+        "createLabel": "Creeare o nouă entitate Faq Entry",
+        "createOrEditLabel": "Creeare sau editare Faq Entry",
+        "notFound": "No Faq Entries found"
+      },
+      "created": "A fost creată o nouă entitate Faq Entry cu identificatorul {{ param }}",
+      "updated": "Faq Entry cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Faq Entry cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Faq Entry {{ id }}?"
+      },
+      "detail": {
+        "title": "Faq Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date"
+    }
+  }
+}

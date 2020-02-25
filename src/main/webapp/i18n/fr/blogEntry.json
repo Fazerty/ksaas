@@ -1,0 +1,26 @@
+{
+  "ksaasApp": {
+    "blogEntry": {
+      "home": {
+        "title": "BlogEntries",
+        "createLabel": "Créer un nouveau Blog Entry",
+        "createOrEditLabel": "Créer ou éditer un Blog Entry",
+        "notFound": "Aucun Blog Entry trouvé"
+      },
+      "created": "Un nouveau Blog Entry a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Blog Entry avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Blog Entry avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Blog Entry {{ id }} ?"
+      },
+      "detail": {
+        "title": "Blog Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date",
+      "tag": "Tag"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqSection": {
+      "home": {
+        "title": "Faq Sections",
+        "createLabel": "Creeare o nouă entitate Faq Section",
+        "createOrEditLabel": "Creeare sau editare Faq Section",
+        "notFound": "No Faq Sections found"
+      },
+      "created": "A fost creată o nouă entitate Faq Section cu identificatorul {{ param }}",
+      "updated": "Faq Section cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Faq Section cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Faq Section {{ id }}?"
+      },
+      "detail": {
+        "title": "Faq Section"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

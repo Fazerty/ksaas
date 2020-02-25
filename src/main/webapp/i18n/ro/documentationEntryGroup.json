@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "documentationEntryGroup": {
+      "home": {
+        "title": "Documentation Entry Groups",
+        "createLabel": "Creeare o nouă entitate Documentation Entry Group",
+        "createOrEditLabel": "Creeare sau editare Documentation Entry Group",
+        "notFound": "No Documentation Entry Groups found"
+      },
+      "created": "A fost creată o nouă entitate Documentation Entry Group cu identificatorul {{ param }}",
+      "updated": "Documentation Entry Group cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Documentation Entry Group cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Documentation Entry Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

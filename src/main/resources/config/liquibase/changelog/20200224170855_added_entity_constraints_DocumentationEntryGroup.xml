@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity DocumentationEntryGroup.
+    -->
+    <changeSet id="20200224170855-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="blog_id"
+                                 baseTableName="documentation_entry_group"
+                                 constraintName="fk_documentation_entry_group_blog_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="documentation_section"/>
+
+        <addForeignKeyConstraint baseColumnNames="entry_id"
+                                 baseTableName="documentation_entry_group"
+                                 constraintName="fk_documentation_entry_group_entry_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="faq_entry"/>
+
+    </changeSet>
+</databaseChangeLog>

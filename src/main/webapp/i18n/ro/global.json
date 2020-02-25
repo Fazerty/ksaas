@@ -10,6 +10,18 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "translatedName": "Translated Name",
+        "blogSection": "Blog Section",
+        "blogEntryGroup": "Blog Entry Group",
+        "blogEntry": "Blog Entry",
+        "tag": "Tag",
+        "faqSection": "Faq Section",
+        "faqEntryGroup": "Faq Entry Group",
+        "faqEntry": "Faq Entry",
+        "documentationChapter": "Documentation Chapter",
+        "documentationSection": "Documentation Section",
+        "documentationEntryGroup": "Documentation Entry Group",
+        "documentationEntry": "Documentation Entry",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "documentationEntryGroup": {
+      "home": {
+        "title": "Documentation Entry Groups",
+        "createLabel": "Crear nuevo Documentation Entry Group",
+        "createOrEditLabel": "Crear o editar Documentation Entry Group",
+        "notFound": "Ningún Documentation Entry Groups encontrado"
+      },
+      "created": "Un nuevo Documentation Entry Group ha sido creado con el identificador {{ param }}",
+      "updated": "Un Documentation Entry Group ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Documentation Entry Group ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Documentation Entry Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

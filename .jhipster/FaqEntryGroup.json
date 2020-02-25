@@ -1,0 +1,30 @@
+{
+    "name": "FaqEntryGroup",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "faqSection",
+            "otherEntityRelationshipName": "faqEntryGroup",
+            "relationshipName": "blog",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "faqEntry",
+            "otherEntityRelationshipName": "faqEntryGroup",
+            "relationshipName": "entry",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200224170851",
+    "entityTableName": "faq_entry_group",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

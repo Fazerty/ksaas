@@ -1,0 +1,26 @@
+{
+  "ksaasApp": {
+    "blogEntry": {
+      "home": {
+        "title": "Blog Entries",
+        "createLabel": "Blog Entry erstellen",
+        "createOrEditLabel": "Blog Entry erstellen oder bearbeiten",
+        "notFound": "No Blog Entries found"
+      },
+      "created": "Blog Entry erstellt mit ID {{ param }}",
+      "updated": "Blog Entry aktualisiert mit ID {{ param }}",
+      "deleted": "Blog Entry gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Blog Entry {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Blog Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date",
+      "tag": "Tag"
+    }
+  }
+}

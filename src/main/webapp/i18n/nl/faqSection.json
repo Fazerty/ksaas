@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqSection": {
+      "home": {
+        "title": "Faq Sections",
+        "createLabel": "Maak een nieuwe Faq Section",
+        "createOrEditLabel": "Maak of wijzig een Faq Section",
+        "notFound": "No Faq Sections found"
+      },
+      "created": "A new Faq Section is created with identifier {{ param }}",
+      "updated": "A Faq Section is updated with identifier {{ param }}",
+      "deleted": "A Faq Section is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Faq Section {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Faq Section"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

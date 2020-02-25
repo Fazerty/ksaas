@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "documentationChapter": {
+      "home": {
+        "title": "Documentation Chapters",
+        "createLabel": "Documentation Chapter erstellen",
+        "createOrEditLabel": "Documentation Chapter erstellen oder bearbeiten",
+        "notFound": "No Documentation Chapters found"
+      },
+      "created": "Documentation Chapter erstellt mit ID {{ param }}",
+      "updated": "Documentation Chapter aktualisiert mit ID {{ param }}",
+      "deleted": "Documentation Chapter gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Documentation Chapter {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Documentation Chapter"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

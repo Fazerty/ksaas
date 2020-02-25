@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqEntryGroup": {
+      "home": {
+        "title": "Faq Entry Groups",
+        "createLabel": "Crear nuevo Faq Entry Group",
+        "createOrEditLabel": "Crear o editar Faq Entry Group",
+        "notFound": "Ningún Faq Entry Groups encontrado"
+      },
+      "created": "Un nuevo Faq Entry Group ha sido creado con el identificador {{ param }}",
+      "updated": "Un Faq Entry Group ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Faq Entry Group ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Faq Entry Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Faq Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

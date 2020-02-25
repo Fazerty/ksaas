@@ -1,0 +1,39 @@
+{
+    "name": "DocumentationSection",
+    "fields": [
+        {
+            "fieldName": "info",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 2
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "translatedName",
+            "otherEntityRelationshipName": "documentationSection",
+            "relationshipName": "names"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "documentationChapter",
+            "otherEntityRelationshipName": "documentationSection",
+            "relationshipName": "blog",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200224170854",
+    "entityTableName": "documentation_section",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

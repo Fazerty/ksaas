@@ -1,0 +1,29 @@
+{
+  "ksaasApp": {
+    "translatedName": {
+      "home": {
+        "title": "Translated Names",
+        "createLabel": "Create a new Translated Name",
+        "createOrEditLabel": "Create or edit a Translated Name",
+        "notFound": "No Translated Names found"
+      },
+      "created": "A new Translated Name is created with identifier {{ param }}",
+      "updated": "A Translated Name is updated with identifier {{ param }}",
+      "deleted": "A Translated Name is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Translated Name {{ id }}?"
+      },
+      "detail": {
+        "title": "Translated Name"
+      },
+      "language": "Language",
+      "name": "Name",
+      "slug": "Slug",
+      "tag": "Tag",
+      "blogSection": "Blog Section",
+      "faqSection": "Faq Section",
+      "documentationChapter": "Documentation Chapter",
+      "documentationSection": "Documentation Section"
+    }
+  }
+}

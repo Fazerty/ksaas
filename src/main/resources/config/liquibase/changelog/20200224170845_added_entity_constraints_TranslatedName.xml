@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity TranslatedName.
+    -->
+    <changeSet id="20200224170845-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="tag_id"
+                                 baseTableName="translated_name"
+                                 constraintName="fk_translated_name_tag_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tag"/>
+
+        <addForeignKeyConstraint baseColumnNames="blog_section_id"
+                                 baseTableName="translated_name"
+                                 constraintName="fk_translated_name_blog_section_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="blog_section"/>
+
+        <addForeignKeyConstraint baseColumnNames="faq_section_id"
+                                 baseTableName="translated_name"
+                                 constraintName="fk_translated_name_faq_section_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="faq_section"/>
+
+        <addForeignKeyConstraint baseColumnNames="documentation_chapter_id"
+                                 baseTableName="translated_name"
+                                 constraintName="fk_translated_name_documentation_chapter_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="documentation_chapter"/>
+
+        <addForeignKeyConstraint baseColumnNames="documentation_section_id"
+                                 baseTableName="translated_name"
+                                 constraintName="fk_translated_name_documentation_section_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="documentation_section"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -42,6 +42,25 @@ public class CacheConfiguration {
             createCache(cm, com.upurion.ksaas.domain.User.class.getName());
             createCache(cm, com.upurion.ksaas.domain.Authority.class.getName());
             createCache(cm, com.upurion.ksaas.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.upurion.ksaas.domain.TranslatedName.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.BlogSection.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.BlogSection.class.getName() + ".names");
+            createCache(cm, com.upurion.ksaas.domain.BlogEntryGroup.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.BlogEntry.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.BlogEntry.class.getName() + ".tags");
+            createCache(cm, com.upurion.ksaas.domain.Tag.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.Tag.class.getName() + ".names");
+            createCache(cm, com.upurion.ksaas.domain.Tag.class.getName() + ".entries");
+            createCache(cm, com.upurion.ksaas.domain.FaqSection.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.FaqSection.class.getName() + ".names");
+            createCache(cm, com.upurion.ksaas.domain.FaqEntryGroup.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.FaqEntry.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.DocumentationChapter.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.DocumentationChapter.class.getName() + ".names");
+            createCache(cm, com.upurion.ksaas.domain.DocumentationSection.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.DocumentationSection.class.getName() + ".names");
+            createCache(cm, com.upurion.ksaas.domain.DocumentationEntryGroup.class.getName());
+            createCache(cm, com.upurion.ksaas.domain.DocumentationEntry.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

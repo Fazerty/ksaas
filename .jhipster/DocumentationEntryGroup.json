@@ -1,0 +1,30 @@
+{
+    "name": "DocumentationEntryGroup",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "documentationSection",
+            "otherEntityRelationshipName": "documentationEntryGroup",
+            "relationshipName": "blog",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "faqEntry",
+            "otherEntityRelationshipName": "documentationEntryGroup",
+            "relationshipName": "entry",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200224170855",
+    "entityTableName": "documentation_entry_group",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

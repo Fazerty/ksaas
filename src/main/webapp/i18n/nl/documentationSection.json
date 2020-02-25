@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "documentationSection": {
+      "home": {
+        "title": "Documentation Sections",
+        "createLabel": "Maak een nieuwe Documentation Section",
+        "createOrEditLabel": "Maak of wijzig een Documentation Section",
+        "notFound": "No Documentation Sections found"
+      },
+      "created": "A new Documentation Section is created with identifier {{ param }}",
+      "updated": "A Documentation Section is updated with identifier {{ param }}",
+      "deleted": "A Documentation Section is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Documentation Section {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Documentation Section"
+      },
+      "info": "Info",
+      "names": "Names",
+      "blog": "Blog"
+    }
+  }
+}

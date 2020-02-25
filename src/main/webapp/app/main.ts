@@ -26,6 +26,17 @@ import AlertService from '@/shared/alert/alert.service';
 import TranslationService from '@/locale/translation.service';
 import ConfigurationService from '@/admin/configuration/configuration.service';
 
+import BlogSectionService from '@/entities/blog-section/blog-section.service';
+import BlogEntryGroupService from '@/entities/blog-entry-group/blog-entry-group.service';
+import BlogEntryService from '@/entities/blog-entry/blog-entry.service';
+import TagService from '@/entities/tag/tag.service';
+import FaqSectionService from '@/entities/faq-section/faq-section.service';
+import FaqEntryGroupService from '@/entities/faq-entry-group/faq-entry-group.service';
+import FaqEntryService from '@/entities/faq-entry/faq-entry.service';
+import DocumentationChapterService from '@/entities/documentation-chapter/documentation-chapter.service';
+import DocumentationSectionService from '@/entities/documentation-section/documentation-section.service';
+import DocumentationEntryGroupService from '@/entities/documentation-entry-group/documentation-entry-group.service';
+import DocumentationEntryService from '@/entities/documentation-entry/documentation-entry.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 Vue.config.productionTip = false;
@@ -84,6 +95,17 @@ new Vue({
     metricsService: () => new MetricsService(),
     alertService: () => alertService,
     translationService: () => translationService,
+    blogSectionService: () => new BlogSectionService(),
+    blogEntryGroupService: () => new BlogEntryGroupService(),
+    blogEntryService: () => new BlogEntryService(),
+    tagService: () => new TagService(),
+    faqSectionService: () => new FaqSectionService(),
+    faqEntryGroupService: () => new FaqEntryGroupService(),
+    faqEntryService: () => new FaqEntryService(),
+    documentationChapterService: () => new DocumentationChapterService(),
+    documentationSectionService: () => new DocumentationSectionService(),
+    documentationEntryGroupService: () => new DocumentationEntryGroupService(),
+    documentationEntryService: () => new DocumentationEntryService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService
   },

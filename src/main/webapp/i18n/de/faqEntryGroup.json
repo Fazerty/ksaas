@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "faqEntryGroup": {
+      "home": {
+        "title": "Faq Entry Groups",
+        "createLabel": "Faq Entry Group erstellen",
+        "createOrEditLabel": "Faq Entry Group erstellen oder bearbeiten",
+        "notFound": "No Faq Entry Groups found"
+      },
+      "created": "Faq Entry Group erstellt mit ID {{ param }}",
+      "updated": "Faq Entry Group aktualisiert mit ID {{ param }}",
+      "deleted": "Faq Entry Group gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Faq Entry Group {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Faq Entry Group"
+      },
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

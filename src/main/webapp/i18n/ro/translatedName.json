@@ -1,0 +1,29 @@
+{
+  "ksaasApp": {
+    "translatedName": {
+      "home": {
+        "title": "Translated Names",
+        "createLabel": "Creeare o nouă entitate Translated Name",
+        "createOrEditLabel": "Creeare sau editare Translated Name",
+        "notFound": "No Translated Names found"
+      },
+      "created": "A fost creată o nouă entitate Translated Name cu identificatorul {{ param }}",
+      "updated": "Translated Name cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Translated Name cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Translated Name {{ id }}?"
+      },
+      "detail": {
+        "title": "Translated Name"
+      },
+      "language": "Language",
+      "name": "Name",
+      "slug": "Slug",
+      "tag": "Tag",
+      "blogSection": "Blog Section",
+      "faqSection": "Faq Section",
+      "documentationChapter": "Documentation Chapter",
+      "documentationSection": "Documentation Section"
+    }
+  }
+}

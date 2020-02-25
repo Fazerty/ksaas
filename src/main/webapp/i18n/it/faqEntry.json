@@ -1,0 +1,25 @@
+{
+  "ksaasApp": {
+    "faqEntry": {
+      "home": {
+        "title": "FaqEntries",
+        "createLabel": "Genera un nuovo Faq Entry",
+        "createOrEditLabel": "Genera o modifica un Faq Entry",
+        "notFound": "No Faq Entries found"
+      },
+      "created": "&Egrave; stato generato un nuovo Faq Entry con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Faq Entry identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Faq Entry con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Faq Entry {{ id }}?"
+      },
+      "detail": {
+        "title": "Faq Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date"
+    }
+  }
+}

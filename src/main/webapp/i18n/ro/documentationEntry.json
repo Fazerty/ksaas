@@ -1,0 +1,25 @@
+{
+  "ksaasApp": {
+    "documentationEntry": {
+      "home": {
+        "title": "Documentation Entries",
+        "createLabel": "Creeare o nouă entitate Documentation Entry",
+        "createOrEditLabel": "Creeare sau editare Documentation Entry",
+        "notFound": "No Documentation Entries found"
+      },
+      "created": "A fost creată o nouă entitate Documentation Entry cu identificatorul {{ param }}",
+      "updated": "Documentation Entry cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Documentation Entry cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Documentation Entry {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date"
+    }
+  }
+}

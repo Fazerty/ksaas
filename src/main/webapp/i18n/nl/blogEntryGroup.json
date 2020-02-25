@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "blogEntryGroup": {
+      "home": {
+        "title": "Blog Entry Groups",
+        "createLabel": "Maak een nieuwe Blog Entry Group",
+        "createOrEditLabel": "Maak of wijzig een Blog Entry Group",
+        "notFound": "No Blog Entry Groups found"
+      },
+      "created": "A new Blog Entry Group is created with identifier {{ param }}",
+      "updated": "A Blog Entry Group is updated with identifier {{ param }}",
+      "deleted": "A Blog Entry Group is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Blog Entry Group {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Blog Entry Group"
+      },
+      "user": "User",
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

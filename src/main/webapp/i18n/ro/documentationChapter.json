@@ -1,0 +1,23 @@
+{
+  "ksaasApp": {
+    "documentationChapter": {
+      "home": {
+        "title": "Documentation Chapters",
+        "createLabel": "Creeare o nouă entitate Documentation Chapter",
+        "createOrEditLabel": "Creeare sau editare Documentation Chapter",
+        "notFound": "No Documentation Chapters found"
+      },
+      "created": "A fost creată o nouă entitate Documentation Chapter cu identificatorul {{ param }}",
+      "updated": "Documentation Chapter cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Documentation Chapter cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Documentation Chapter {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Chapter"
+      },
+      "info": "Info",
+      "names": "Names"
+    }
+  }
+}

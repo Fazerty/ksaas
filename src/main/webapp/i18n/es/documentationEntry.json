@@ -1,0 +1,25 @@
+{
+  "ksaasApp": {
+    "documentationEntry": {
+      "home": {
+        "title": "Documentation Entries",
+        "createLabel": "Crear nuevo Documentation Entry",
+        "createOrEditLabel": "Crear o editar Documentation Entry",
+        "notFound": "Ningún Documentation Entries encontrado"
+      },
+      "created": "Un nuevo Documentation Entry ha sido creado con el identificador {{ param }}",
+      "updated": "Un Documentation Entry ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Documentation Entry ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Documentation Entry {{ id }}?"
+      },
+      "detail": {
+        "title": "Documentation Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date"
+    }
+  }
+}

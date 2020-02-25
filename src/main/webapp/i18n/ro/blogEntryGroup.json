@@ -1,0 +1,24 @@
+{
+  "ksaasApp": {
+    "blogEntryGroup": {
+      "home": {
+        "title": "Blog Entry Groups",
+        "createLabel": "Creeare o nouă entitate Blog Entry Group",
+        "createOrEditLabel": "Creeare sau editare Blog Entry Group",
+        "notFound": "No Blog Entry Groups found"
+      },
+      "created": "A fost creată o nouă entitate Blog Entry Group cu identificatorul {{ param }}",
+      "updated": "Blog Entry Group cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Blog Entry Group cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Blog Entry Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Blog Entry Group"
+      },
+      "user": "User",
+      "blog": "Blog",
+      "entry": "Entry"
+    }
+  }
+}

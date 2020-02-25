@@ -5,20 +5,20 @@ import AlertService from '@/shared/alert/alert.service';
 export default class AlertMixin extends Vue {
   @Inject('alertService') protected alertService: () => AlertService;
 
-  public dismissCountDown: number = this.$store.getters.dismissCountDown;
-  public dismissSecs: number = this.$store.getters.dismissSecs;
-  public alertType: string = this.$store.getters.alertType;
-  public alertMessage: any = this.$store.getters.alertMessage;
+  // TODO remove
+  public dismissCountDown: number = 0;
+  public dismissSecs: number = 0;
+  public alertType: string = 'info';
+  public alertMessage: any = 'msg';
 
   public getAlertFromStore() {
-    this.dismissCountDown = this.$store.getters.dismissCountDown;
-    this.dismissSecs = this.$store.getters.dismissSecs;
-    this.alertType = this.$store.getters.alertType;
-    this.alertMessage = this.$store.getters.alertMessage;
+    this.dismissCountDown = 0;
+    this.dismissSecs = 0;
+    this.alertType = 'info';
+    this.alertMessage = 'msg';
   }
 
   public countDownChanged(dismissCountDown: number) {
-    this.alertService().countDownChanged(dismissCountDown);
     this.getAlertFromStore();
   }
 }

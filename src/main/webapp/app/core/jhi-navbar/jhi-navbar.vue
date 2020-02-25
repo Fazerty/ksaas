@@ -71,6 +71,50 @@
                         <font-awesome-icon icon="th-list" />
                         <span v-text="$t('global.menu.entities.main')">Entities</span>
                     </span>
+                    <b-dropdown-item to="/blog-section">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.blogSection')">BlogSection</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/blog-entry-group">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.blogEntryGroup')">BlogEntryGroup</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/blog-entry">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.blogEntry')">BlogEntry</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/tag">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.tag')">Tag</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/faq-section">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.faqSection')">FaqSection</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/faq-entry-group">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.faqEntryGroup')">FaqEntryGroup</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/faq-entry">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.faqEntry')">FaqEntry</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/documentation-chapter">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.documentationChapter')">DocumentationChapter</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/documentation-section">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.documentationSection')">DocumentationSection</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/documentation-entry-group">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.documentationEntryGroup')">DocumentationEntryGroup</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/documentation-entry">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.documentationEntry')">DocumentationEntry</span>
+                    </b-dropdown-item>
                     <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                 </b-nav-item-dropdown>
 

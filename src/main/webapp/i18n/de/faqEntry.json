@@ -1,0 +1,25 @@
+{
+  "ksaasApp": {
+    "faqEntry": {
+      "home": {
+        "title": "Faq Entries",
+        "createLabel": "Faq Entry erstellen",
+        "createOrEditLabel": "Faq Entry erstellen oder bearbeiten",
+        "notFound": "No Faq Entries found"
+      },
+      "created": "Faq Entry erstellt mit ID {{ param }}",
+      "updated": "Faq Entry aktualisiert mit ID {{ param }}",
+      "deleted": "Faq Entry gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Faq Entry {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Faq Entry"
+      },
+      "language": "Language",
+      "title": "Title",
+      "content": "Content",
+      "date": "Date"
+    }
+  }
+}
