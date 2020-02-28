@@ -56,7 +56,7 @@
 
         <template v-slot:footer>
           <div style="text-align:center;">
-            <b-button href="#" variant="primary" :disabled="plan.disabled">{{$t('choose')}}</b-button>
+            <b-button href="#" variant="primary" :disabled="plan.disabled" @click="choose(plan.name)">{{$t('choose')}}</b-button>
           </div>
         </template>
       </b-card>

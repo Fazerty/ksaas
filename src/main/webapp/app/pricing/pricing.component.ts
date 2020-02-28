@@ -27,6 +27,18 @@ export default class Pricing extends Vue {
     }
   ];
 
+  private choose(name: String) {
+    switch (name) {
+      case 'Desktop':
+        this.$router.push('/desktop/download');
+        break;
+      case 'Standard':
+        break;
+      case 'Enterprise':
+        break;
+    }
+  }
+
   // Fields of the plan details table
   private fields = [
     { key: 'property', label: '' },

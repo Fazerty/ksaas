@@ -1,5 +1,8 @@
 # ksaas
 
+This application is a backend/frontend starter for SaaS startups written in Java, Spring and TypeScript and Vue.
+It has built-in landing pages, authentication, settings UIs, and more.
+
 This application was generated using JHipster 6.5.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.5.1](https://www.jhipster.tech/documentation-archive/v6.5.1).
 
 ## Development
