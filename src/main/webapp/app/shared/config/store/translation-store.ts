@@ -1,5 +1,19 @@
 import { Module } from 'vuex';
 
+export type Langages = 'nl' | 'en' | 'fr' | 'de' | 'it' | 'ro' | 'es';
+
+export enum Language {
+  FR = 'FR',
+  EN = 'EN',
+  ES = 'ES',
+  IT = 'IT',
+  RO = 'RO',
+  DU = 'DU',
+  NL = 'NL'
+}
+
+export const defaultLanguage: Langages = 'en';
+
 export const translationStore: Module<any, any> = {
   state: {
     currentLanguage: localStorage.getItem('currentLanguage') || 'en',

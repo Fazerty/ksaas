@@ -5,7 +5,7 @@
             "about": {
                 "blog": "Blog",
                 "contactUs": "Contact us",
-                "ourStory": "Our story",
+                "aboutUs": "About us",
                 "privacyPolicy": "Privacy policy",
                 "termsOfService": "Terms of Service",
                 "title": "About"
@@ -30,7 +30,7 @@
             "about": {
                 "blog": "Blog",
                 "contactUs": "Contactez-nous",
-                "ourStory": "Notre histoire",
+                "aboutUs": "Qui sommes-nous?",
                 "privacyPolicy": "Politique de confidentialité",
                 "termsOfService": "Conditions générales d'utilisation",
                 "title": "A propos"
@@ -75,7 +75,7 @@
           <h5 class="title text-white" v-text="$t('footer.about.title')">About</h5>
           <ul class="sm">
             <li class="list-unstyled">
-              <b-link class="text-white" v-text="$t('footer.about.ourStory')" to="/help/documentation">Our story</b-link>
+              <b-link class="text-white" v-text="$t('footer.about.aboutUs')" to="/about_us">About us</b-link>
             </li>
             <li class="list-unstyled">
               <b-link class="text-white" v-text="$t('footer.about.blog')" to="/help/documentation">Blog</b-link>

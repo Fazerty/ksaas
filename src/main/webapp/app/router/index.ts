@@ -6,6 +6,7 @@ Component.registerHooks([
   'beforeRouteUpdate' // for vue-router 2.2+
 ]);
 import Router from 'vue-router';
+const AboutUs = () => import('../about/aboutUs.vue');
 const Home = () => import('../core/home/home.vue');
 const Error = () => import('../core/error/error.vue');
 const Register = () => import('../account/register/register.vue');
@@ -330,7 +331,12 @@ export default new Router({
       name: 'BlogEntryView',
       component: BlogEntryDetails,
       meta: { authorities: ['ROLE_USER'] }
-    }
+    } ,
+    {
+      path: '/about_us',
+      name: 'AboutUs',
+      component: AboutUs,
+    },
     ,
     {
       path: '/tag',
